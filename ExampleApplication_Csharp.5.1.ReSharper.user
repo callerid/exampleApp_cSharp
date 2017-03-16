@@ -1,0 +1,491 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="MyNumber" priority="12" />
+      <Item value="MessageBox`0" priority="30" />
+      <Item value="public" priority="24" />
+      <Item value="static" priority="16" />
+      <Item value="string" priority="42" />
+      <Item value="if" priority="31" />
+      <Item value="MyType" priority="16" />
+      <Item value="else" priority="10" />
+      <Item value="index" priority="1" />
+      <Item value="rawData" priority="6" />
+      <Item value="MyCheckSum" priority="3" />
+      <Item value="MyRings" priority="5" />
+      <Item value="MyName" priority="11" />
+      <Item value="switch" priority="5" />
+      <Item value="MyLine" priority="16" />
+      <Item value="case" priority="15" />
+      <Item value="break" priority="16" />
+      <Item value="void" priority="11" />
+      <Item value="panLine1" priority="3" />
+      <Item value="ColorDepth`0" priority="2" />
+      <Item value="System" priority="5" />
+      <Item value="Drawing" priority="2" />
+      <Item value="Color`0" priority="4" />
+      <Item value="frmMain`0" priority="34" />
+      <Item value="new" priority="26" />
+      <Item value="frmMain" priority="9" />
+      <Item value="ExampleApplication_Csharp" priority="11" />
+      <Item value="mainForm" priority="2" />
+      <Item value="receivedMessage" priority="5" />
+      <Item value="msg" priority="3" />
+      <Item value="for" priority="2" />
+      <Item value="int" priority="7" />
+      <Item value="i" priority="6" />
+      <Item value="Length" priority="5" />
+      <Item value="EndInvoke`0" priority="0" />
+      <Item value="Application`0" priority="5" />
+      <Item value="mbox" priority="0" />
+      <Item value="MyIndicator" priority="6" />
+      <Item value="MyDuration" priority="4" />
+      <Item value="MyDate" priority="4" />
+      <Item value="MyTime" priority="14" />
+      <Item value="Properties" priority="12" />
+      <Item value="Resources`0" priority="11" />
+      <Item value="UdpReceiveThread" priority="0" />
+      <Item value="true" priority="10" />
+      <Item value="myForm" priority="0" />
+      <Item value="Subscribe`0" priority="0" />
+      <Item value="UdpReceiver" priority="0" />
+      <Item value="default" priority="0" />
+      <Item value="picPhoneLine1" priority="3" />
+      <Item value="using" priority="1" />
+      <Item value="lbLine1Time" priority="0" />
+      <Item value="lbLine1Number" priority="0" />
+      <Item value="lbLine1Name" priority="1" />
+      <Item value="bkWorker" priority="0" />
+      <Item value="bkWorker_DoWork`0" priority="0" />
+      <Item value="sender" priority="0" />
+      <Item value="e" priority="9" />
+      <Item value="object" priority="1" />
+      <Item value="u" priority="0" />
+      <Item value="EventArgs`0" priority="2" />
+      <Item value="ComponentModel" priority="0" />
+      <Item value="DoWorkEventArgs`0" priority="0" />
+      <Item value="Region`0" priority="0" />
+      <Item value="this" priority="12" />
+      <Item value="lbLine4" priority="0" />
+      <Item value="delegate" priority="2" />
+      <Item value="lbLine4Time" priority="2" />
+      <Item value="SetTime`0" priority="0" />
+      <Item value="MethodInvoker`0" priority="1" />
+      <Item value="Thread`0" priority="1" />
+      <Item value="Delegate`0" priority="0" />
+      <Item value="ArrangeStartingPosition`0" priority="0" />
+      <Item value="setVars`0" priority="2" />
+      <Item value="EventHandler`0" priority="0" />
+      <Item value="Control`0" priority="0" />
+      <Item value="Data" priority="0" />
+      <Item value="SqlClient" priority="0" />
+      <Item value="SqlConnection`0" priority="0" />
+      <Item value="SqlConnection" priority="0" />
+      <Item value="UserControl`0" priority="0" />
+      <Item value="try" priority="1" />
+      <Item value="myConnection" priority="6" />
+      <Item value="catch" priority="1" />
+      <Item value="Exception`0" priority="1" />
+      <Item value="SqlCommand`0" priority="0" />
+      <Item value="SqlCommand" priority="0" />
+      <Item value="myCommand" priority="6" />
+      <Item value="logCall`0" priority="0" />
+      <Item value="ex" priority="0" />
+      <Item value="Open" priority="0" />
+      <Item value="SqlCeCommand`0" priority="1" />
+      <Item value="SqlCeCommand" priority="1" />
+      <Item value="commandString" priority="5" />
+      <Item value="command" priority="2" />
+      <Item value="return" priority="7" />
+      <Item value="foundIndex" priority="2" />
+      <Item value="returnIndexOfStartRecord`0" priority="1" />
+      <Item value="SqlCeDataReader`0" priority="0" />
+      <Item value="FoundIndex" priority="8" />
+      <Item value="myReader" priority="2" />
+      <Item value="while" priority="3" />
+      <Item value="findIndexForStartRecord`0" priority="0" />
+      <Item value="updateRecord`0" priority="0" />
+      <Item value="myCommany" priority="0" />
+      <Item value="Int" priority="0" />
+      <Item value="IAppDomainSetup`0" priority="0" />
+      <Item value="SMyLine" priority="1" />
+      <Item value="SMyTime" priority="1" />
+      <Item value="SMyDate" priority="1" />
+      <Item value="SMyNumber" priority="1" />
+      <Item value="DataGridView`0" priority="1" />
+      <Item value="refreshDGV`0" priority="2" />
+      <Item value="frmLogDatabase`0" priority="0" />
+      <Item value="dgvLogFile" priority="3" />
+      <Item value="frmLogFile`0" priority="4" />
+      <Item value="var" priority="4" />
+      <Item value="frmLogFile" priority="0" />
+      <Item value="frmLog" priority="11" />
+      <Item value="sqlcecommand" priority="0" />
+      <Item value="IDataAdapter`0" priority="0" />
+      <Item value="SqlCeDataAdapter`0" priority="1" />
+      <Item value="datSet" priority="2" />
+      <Item value="DataSet`0" priority="0" />
+      <Item value="DataSet" priority="0" />
+      <Item value="datAdapter" priority="0" />
+      <Item value="CheckForIllegalCrossThreadCalls" priority="0" />
+      <Item value="BindingSource`0" priority="0" />
+      <Item value="BindingSource" priority="0" />
+      <Item value="myBind" priority="0" />
+      <Item value="false" priority="13" />
+      <Item value="SortOrder`0" priority="0" />
+      <Item value="dataGridViewColumn" priority="1" />
+      <Item value="ListSortDirection`0" priority="0" />
+      <Item value="SQLiteCommand`0" priority="1" />
+      <Item value="SQLiteDataAdapter`0" priority="0" />
+      <Item value="FileDialog`0" priority="1" />
+      <Item value="File`0" priority="3" />
+      <Item value="Directory`0" priority="0" />
+      <Item value="SQLiteConnection`0" priority="0" />
+      <Item value="tbName" priority="6" />
+      <Item value="tbPhone" priority="3" />
+      <Item value="char" priority="2" />
+      <Item value="AndAlso" priority="0" />
+      <Item value="private" priority="6" />
+      <Item value="dgvContacts" priority="2" />
+      <Item value="SQLiteDataReader`0" priority="0" />
+      <Item value="reader" priority="4" />
+      <Item value="returnValue" priority="2" />
+      <Item value="boolean`0" priority="0" />
+      <Item value="Boolean`0" priority="5" />
+      <Item value="IFeatureSupport`0" priority="1" />
+      <Item value="SearchContactFound" priority="2" />
+      <Item value="SearchContact" priority="5" />
+      <Item value="frmContacts`0" priority="0" />
+      <Item value="frmContacts" priority="0" />
+      <Item value="frmContact" priority="2" />
+      <Item value="picDatabaseLine1" priority="6" />
+      <Item value="frmAddContact`0" priority="0" />
+      <Item value="frmAddContact" priority="0" />
+      <Item value="frmChangeContact`0" priority="0" />
+      <Item value="frmChangeContact" priority="0" />
+      <Item value="frmChange" priority="6" />
+      <Item value="frmAdd" priority="10" />
+      <Item value="picDatabaseLine2" priority="3" />
+      <Item value="is" priority="0" />
+      <Item value="Image`0" priority="0" />
+      <Item value="picPhoneLine2" priority="1" />
+      <Item value="Message`0" priority="0" />
+      <Item value="myName" priority="2" />
+      <Item value="myNumber" priority="1" />
+      <Item value="Diagnostics" priority="0" />
+      <Item value="Process`0" priority="7" />
+      <Item value="Process" priority="2" />
+      <Item value="procList" priority="4" />
+      <Item value="ProcessStartInfo`0" priority="0" />
+      <Item value="ProcessStartInfo" priority="0" />
+      <Item value="processProperties" priority="2" />
+      <Item value="Stopwatch`0" priority="0" />
+      <Item value="Stopwatch" priority="0" />
+      <Item value="sw" priority="2" />
+      <Item value="do" priority="0" />
+      <Item value="milliSeconds" priority="0" />
+      <Item value="WaitFor`0" priority="2" />
+      <Item value="myLine" priority="1" />
+      <Item value="Form`0" priority="0" />
+      <Item value="main" priority="3" />
+      <Item value="lbLine1" priority="0" />
+      <Item value="changeIcons`0" priority="0" />
+      <Item value="StoredName" priority="0" />
+      <Item value="UseStoredName" priority="1" />
+      <Item value="elpopupFound" priority="2" />
+      <Item value="messageToShow" priority="0" />
+      <Item value="my_proc" priority="1" />
+      <Item value="procs" priority="3" />
+      <Item value="my_name" priority="0" />
+      <Item value="MyProcessName" priority="0" />
+      <Item value="AlreadyRunning`0" priority="0" />
+      <Item value="const" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="23" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="IndexOf`0" priority="1" />
+      <Item value="Substring`0" priority="3" />
+      <Item value="Split`0" priority="0" />
+      <Item value="Length" priority="0" />
+      <Item value="Contains`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Panel">
+      <Item value="BackColor" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="Green" priority="2" />
+      <Item value="Silver" priority="1" />
+      <Item value="Blue" priority="0" />
+      <Item value="LightBlue" priority="0" />
+      <Item value="LightGreen" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ExampleApplication_Csharp.frmMain">
+      <Item value="frmMain_HandleVisuals`0" priority="0" />
+      <Item value="ActiveForm" priority="0" />
+      <Item value="StoredName" priority="0" />
+      <Item value="UseStoredName" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ExampleApplication_Csharp.frmMain">
+      <Item value="panLine1" priority="0" />
+      <Item value="InitializeComponent`0" priority="0" />
+      <Item value="picPhoneLine2" priority="0" />
+      <Item value="frmMain_HandleVisuals`0" priority="0" />
+      <Item value="Invoke`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Application">
+      <Item value="Exit`0" priority="2" />
+      <Item value="ApplicationExit" priority="0" />
+      <Item value="ExitThread`0" priority="0" />
+      <Item value="CurrentCulture" priority="0" />
+      <Item value="StartupPath" priority="1" />
+      <Item value="DoEvents`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.PictureBox">
+      <Item value="Image" priority="10" />
+      <Item value="Tag" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ExampleApplication_Csharp.Properties.Resources">
+      <Item value="phoneOffHook" priority="2" />
+      <Item value="phoneOnHook" priority="0" />
+      <Item value="databaseFound" priority="2" />
+      <Item value="databaseInsert" priority="1" />
+      <Item value="databaseIdle" priority="1" />
+      <Item value="phoneRing" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="IsBackground" priority="0" />
+      <Item value="Start`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="8" />
+      <Item value="Invoke`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.BackgroundWorker">
+      <Item value="DoWork" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.EventArgs">
+      <Item value="Empty" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlConnection">
+      <Item value="Open`0" priority="0" />
+      <Item value="Close`0" priority="0" />
+      <Item value="State" priority="0" />
+      <Item value="ConnectionString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlCommand">
+      <Item value="ExecuteNonQuery`0" priority="0" />
+      <Item value="Connection" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlServerCe.SqlCeCommand">
+      <Item value="ExecuteReader`0" priority="0" />
+      <Item value="Parameters" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlServerCe.SqlCeDataReader">
+      <Item value="Read`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlServerCe.SqlCeParameterCollection">
+      <Item value="AddWithValue`0" priority="0" />
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlServerCe.SqlCeParameter">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ExampleApplication_Csharp.frmLogDatabase">
+      <Item value="dgvLogFile" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridView">
+      <Item value="Rows" priority="1" />
+      <Item value="DataSource" priority="0" />
+      <Item value="Sort`0" priority="0" />
+      <Item value="ColumnCount" priority="0" />
+      <Item value="Columns" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewRowCollection">
+      <Item value="Clear`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ExampleApplication_Csharp.frmLogFile">
+      <Item value="ActiveForm" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ExampleApplication_Csharp.frmLogFile">
+      <Item value="Show`0" priority="1" />
+      <Item value="Focus`0" priority="0" />
+      <Item value="Visible" priority="7" />
+      <Item value="Hide`0" priority="0" />
+      <Item value="refreshDGV`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlServerCe.SqlCeDataAdapter">
+      <Item value="Fill`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.SortOrder">
+      <Item value="Ascending" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ComponentModel.ListSortDirection">
+      <Item value="Ascending" priority="2" />
+      <Item value="Descending" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="SetCurrentDirectory`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="Exists`0" priority="1" />
+      <Item value="Create`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.SQLite.SQLiteConnection">
+      <Item value="CreateFile`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Char">
+      <Item value="ToUpper`0" priority="0" />
+      <Item value="IsSymbol`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.KeyPressEventArgs">
+      <Item value="KeyChar" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SQLite.SQLiteCommand">
+      <Item value="ExecuteReader`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SQLite.SQLiteDataReader">
+      <Item value="HasRows" priority="0" />
+      <Item value="Read`0" priority="1" />
+      <Item value="GetString`0" priority="0" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ExampleApplication_Csharp.frmChangeContact">
+      <Item value="Visible" priority="2" />
+      <Item value="Show`0" priority="1" />
+      <Item value="Focus`0" priority="1" />
+      <Item value="Hide`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ExampleApplication_Csharp.frmAddContact">
+      <Item value="Visible" priority="2" />
+      <Item value="Show`0" priority="2" />
+      <Item value="Focus`0" priority="2" />
+      <Item value="Hide`0" priority="0" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Image">
+      <Item value="ToString`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Bitmap">
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Process">
+      <Item value="GetCurrentProcess`0" priority="1" />
+      <Item value="GetProcessesByName`0" priority="1" />
+      <Item value="Start`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Process">
+      <Item value="ProcessName" priority="1" />
+      <Item value="Id" priority="0" />
+      <Item value="MainModule" priority="1" />
+      <Item value="StartTime" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.ProcessModule">
+      <Item value="FileName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.ProcessStartInfo">
+      <Item value="FileName" priority="0" />
+      <Item value="Arguments" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Stopwatch">
+      <Item value="Start`0" priority="0" />
+      <Item value="ElapsedMilliseconds" priority="0" />
+      <Item value="Stop`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ExampleApplication_Csharp.frmContacts">
+      <Item value="Refresh`0" priority="0" />
+      <Item value="refreshDGV`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.RegularExpressions.Regex">
+      <Item value="IsMatch`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Boolean">
+      <Item value="CompareTo`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmMain.resx" caret="5814" fromTop="19" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/d:Properties/f:Resources.resx" caret="7616" fromTop="19" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmMain.Designer.cs" caret="0" fromTop="0" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmLogFile.Designer.cs" caret="2789" fromTop="27" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/d:Properties/f:Resources.Designer.cs" caret="0" fromTop="0" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmAddContact.Designer.cs" caret="4213" fromTop="32" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmChangeContact.Designer.cs" caret="4291" fromTop="19" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:Program.cs" caret="491" fromTop="17" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmContacts.cs" caret="287" fromTop="4" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmLogFile.cs" caret="291" fromTop="4" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmChangeContact.cs" caret="0" fromTop="0" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:README.txt" caret="2222" fromTop="39" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmAddContact.cs" caret="1177" fromTop="0" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmMain.cs" caret="44320" fromTop="41" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmChangeContact.cs" caret="4680" fromTop="21" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmChangeContact.cs" caret="3960" fromTop="25" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmChangeContact.cs" caret="2719" fromTop="28" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmChangeContact.cs" caret="1430" fromTop="35" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmChangeContact.cs" caret="4394" fromTop="35" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmAddContact.cs" caret="6509" fromTop="19" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmAddContact.cs" caret="5818" fromTop="18" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmAddContact.cs" caret="2721" fromTop="26" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmAddContact.cs" caret="1526" fromTop="22" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmMain.cs" caret="23834" fromTop="21" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmMain.cs" caret="50454" fromTop="18" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmMain.cs" caret="51114" fromTop="33" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmMain.cs" caret="50776" fromTop="25" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmMain.cs" caret="50362" fromTop="16" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmLogFile.cs" caret="295" fromTop="2" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmContacts.cs" caret="291" fromTop="2" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmChangeContact.cs" caret="318" fromTop="2" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmAddContact.cs" caret="303" fromTop="2" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmAddContact.cs" caret="299" fromTop="5" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmChangeContact.cs" caret="314" fromTop="5" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmContacts.cs" caret="287" fromTop="4" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmLogFile.cs" caret="291" fromTop="4" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:README.txt" caret="2222" fromTop="16" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:README.txt" caret="2222" fromTop="23" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:README.txt" caret="2222" fromTop="3" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:README.txt" caret="2222" fromTop="14" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:README.txt" caret="2222" fromTop="31" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:README.txt" caret="2222" fromTop="37" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmMain.cs" caret="4724" fromTop="10" />
+      <File id="C11479DF-23BE-4A3F-BF18-DD6C32C5338D/f:frmAddContact.cs" caret="988" fromTop="19" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

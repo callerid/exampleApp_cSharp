@@ -1,0 +1,27 @@
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\bin\Debug\ExampleApplication_Csharp.exe
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\bin\Debug\ExampleApplication_Csharp.pdb
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.frmMain.resources
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.Properties.Resources.resources
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.csproj.GenerateResource.Cache
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.exe
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.pdb
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.csprojResolveAssemblyReference.cache
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.frmLogFile.resources
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\bin\Debug\System.Data.SQLite.dll
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\bin\Debug\System.Data.SQLite.xml
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.frmAddContact.resources
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.frmChangeContact.resources
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.frmContacts.resources
+F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.exe
+F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.pdb
+F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\bin\Debug\ExampleApplication_Csharp.exe
+F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\bin\Debug\ExampleApplication_Csharp.pdb
+F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\bin\Debug\System.Data.SQLite.xml
+F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.csprojResolveAssemblyReference.cache
+F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.frmAddContact.resources
+F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.frmChangeContact.resources
+F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.frmContacts.resources
+F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.frmLogFile.resources
+F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.frmMain.resources
+F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.Properties.Resources.resources
+F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.csproj.GenerateResource.Cache

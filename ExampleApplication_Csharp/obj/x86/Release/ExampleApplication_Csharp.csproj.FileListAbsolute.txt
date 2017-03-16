@@ -1,0 +1,10 @@
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\bin\Release\logDatabase.sdf
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\bin\Release\ExampleApplication_Csharp.exe
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\bin\Release\ExampleApplication_Csharp.pdb
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\bin\Release\System.Data.SqlServerCe.dll
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Release\ExampleApplication_Csharp.frmLogFile.resources
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Release\ExampleApplication_Csharp.frmMain.resources
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Release\ExampleApplication_Csharp.Properties.Resources.resources
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Release\ExampleApplication_Csharp.csproj.GenerateResource.Cache
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Release\ExampleApplication_Csharp.exe
+C:\Users\Grant\Documents\Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Release\ExampleApplication_Csharp.pdb
