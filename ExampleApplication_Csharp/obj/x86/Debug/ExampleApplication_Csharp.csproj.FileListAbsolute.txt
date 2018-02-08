@@ -25,3 +25,16 @@ F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_
 F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.frmMain.resources
 F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.Properties.Resources.resources
 F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.csproj.GenerateResource.Cache
+C:\Users\spenl\Desktop\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.exe
+C:\Users\spenl\Desktop\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.pdb
+C:\Users\spenl\Desktop\ExampleApplication_Csharp\ExampleApplication_Csharp\bin\Debug\ExampleApplication_Csharp.exe
+C:\Users\spenl\Desktop\ExampleApplication_Csharp\ExampleApplication_Csharp\bin\Debug\ExampleApplication_Csharp.pdb
+C:\Users\spenl\Desktop\ExampleApplication_Csharp\ExampleApplication_Csharp\bin\Debug\System.Data.SQLite.xml
+C:\Users\spenl\Desktop\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.csprojResolveAssemblyReference.cache
+C:\Users\spenl\Desktop\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.frmAddContact.resources
+C:\Users\spenl\Desktop\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.frmChangeContact.resources
+C:\Users\spenl\Desktop\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.frmContacts.resources
+C:\Users\spenl\Desktop\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.frmLogFile.resources
+C:\Users\spenl\Desktop\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.frmMain.resources
+C:\Users\spenl\Desktop\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.Properties.Resources.resources
+C:\Users\spenl\Desktop\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.csproj.GenerateResource.Cache

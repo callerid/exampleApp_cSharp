@@ -14,6 +14,7 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 using System.Drawing;
+using System.Collections.Generic;
 
 namespace ExampleApplication_Csharp
 {
@@ -39,6 +40,7 @@ namespace ExampleApplication_Csharp
         public static string MyNumber;
         public static string MyName;
         public static int FoundIndex;
+        public static List<string> PreviousReceptions;
 
         // Start record variables
         public static string SMyLine;
@@ -55,6 +57,7 @@ namespace ExampleApplication_Csharp
         public frmMain()
         {
             InitializeComponent();
+            PreviousReceptions = new List<string>();
 
             // Start listener for UDP traffic
             Subscribe(UdpReceiver);
@@ -510,6 +513,32 @@ namespace ExampleApplication_Csharp
 
         private void HeardIt(UdpReceiverClass u, EventArgs e)
         {
+
+            // ----------THIS SECTION HANDLES DUPLICATE RECORDS WHEN USING DUPLICATE FEATURE --------------
+            string reception = UdpReceiverClass.ReceivedMessage;
+
+            if (PreviousReceptions.Contains(reception))
+            {
+                // Skip duplicate
+                return;
+            }
+            else
+            {
+                // Check buffer
+                if (PreviousReceptions.Count > 30)
+                {
+                    // If reception buffer is full, add to end and delete oldest
+                    PreviousReceptions.Add(reception);
+                    PreviousReceptions.RemoveAt(0);
+                }
+                else
+                {
+                    // If reception buffer not full, just add to end
+                    PreviousReceptions.Add(reception);
+                }
+            }
+            // ------------------------------------------------------------------------------------------
+
             // Extract all variables from incoming data string
             this.Invoke((MethodInvoker) (() => setVars()));
             
@@ -575,6 +604,16 @@ namespace ExampleApplication_Csharp
 
                             break;
                         case "IE":
+
+                            //-----------------------Phone End Call--------------------
+                            //-------------------------------------------------------
+
+                            // Change panel color
+                            panLine1.BackColor = Color.Silver;
+
+                            // Change picture of phone to not-ringing
+                            picPhoneLine1.Image = ExampleApplication_Csharp.Properties.Resources.phoneOnHook;
+
                             break;
                         case "OS":
 
@@ -595,6 +634,16 @@ namespace ExampleApplication_Csharp
 
                             break;
                         case "OE":
+
+                            //-----------------------Phone End Call--------------------
+                            //-------------------------------------------------------
+
+                            // Change panel color
+                            panLine1.BackColor = Color.Silver;
+
+                            // Change picture of phone to not-ringing
+                            picPhoneLine1.Image = ExampleApplication_Csharp.Properties.Resources.phoneOnHook;
+
                             break;
                         default:
                             break;
@@ -659,6 +708,16 @@ namespace ExampleApplication_Csharp
 
                             break;
                         case "IE":
+
+                            //-----------------------Phone End Call--------------------
+                            //-------------------------------------------------------
+
+                            // Change panel color
+                            panLine2.BackColor = Color.Silver;
+
+                            // Change picture of phone to not-ringing
+                            picPhoneLine2.Image = ExampleApplication_Csharp.Properties.Resources.phoneOnHook;
+
                             break;
                         case "OS":
 
@@ -679,6 +738,16 @@ namespace ExampleApplication_Csharp
 
                             break;
                         case "OE":
+
+                            //-----------------------Phone End Call--------------------
+                            //-------------------------------------------------------
+
+                            // Change panel color
+                            panLine2.BackColor = Color.Silver;
+
+                            // Change picture of phone to not-ringing
+                            picPhoneLine2.Image = ExampleApplication_Csharp.Properties.Resources.phoneOnHook;
+
                             break;
                         default:
                             break;
@@ -743,6 +812,16 @@ namespace ExampleApplication_Csharp
 
                             break;
                         case "IE":
+
+                            //-----------------------Phone end call--------------------
+                            //-------------------------------------------------------
+
+                            // Change panel color
+                            panLine3.BackColor = Color.Silver;
+
+                            // Change picture of phone to not-ringing
+                            picPhoneLine3.Image = ExampleApplication_Csharp.Properties.Resources.phoneOnHook;
+
                             break;
                         case "OS":
 
@@ -763,6 +842,16 @@ namespace ExampleApplication_Csharp
 
                             break;
                         case "OE":
+
+                            //-----------------------Phone end call--------------------
+                            //-------------------------------------------------------
+
+                            // Change panel color
+                            panLine3.BackColor = Color.Silver;
+
+                            // Change picture of phone to not-ringing
+                            picPhoneLine3.Image = ExampleApplication_Csharp.Properties.Resources.phoneOnHook;
+
                             break;
                         default:
                             break;
@@ -827,6 +916,16 @@ namespace ExampleApplication_Csharp
 
                             break;
                         case "IE":
+
+                            //-----------------------Phone end call--------------------
+                            //-------------------------------------------------------
+
+                            // Change panel color
+                            panLine4.BackColor = Color.Silver;
+
+                            // Change picture of phone to not-ringing
+                            picPhoneLine4.Image = ExampleApplication_Csharp.Properties.Resources.phoneOnHook;
+
                             break;
                         case "OS":
 
@@ -847,6 +946,16 @@ namespace ExampleApplication_Csharp
 
                             break;
                         case "OE":
+
+                            //-----------------------Phone end call--------------------
+                            //-------------------------------------------------------
+
+                            // Change panel color
+                            panLine4.BackColor = Color.Silver;
+
+                            // Change picture of phone to not-ringing
+                            picPhoneLine4.Image = ExampleApplication_Csharp.Properties.Resources.phoneOnHook;
+
                             break;
                         default:
                             break;
