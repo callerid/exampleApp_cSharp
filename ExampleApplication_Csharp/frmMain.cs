@@ -511,6 +511,29 @@ namespace ExampleApplication_Csharp
             }
         }
 
+        private void removeReceptionFromBuffer(string reception)
+        {
+            List<int> indexes = new List<int>();
+            int cnt = 0;
+            foreach (string rec in PreviousReceptions)
+            {
+                if (rec.Contains(reception.Substring(reception.Length - 20)))
+                {
+                    indexes.Add(cnt);
+                }
+
+                cnt++;
+
+            }
+
+            // IMPORTANT!! Remove in reverse order
+            for (int i = indexes.Count - 1; i >= 0; i--)
+            {
+                PreviousReceptions.RemoveAt(indexes[i]);
+            }
+
+        }
+
         private void HeardIt(UdpReceiverClass u, EventArgs e)
         {
 
@@ -537,14 +560,21 @@ namespace ExampleApplication_Csharp
                     PreviousReceptions.Add(reception);
                 }
             }
+
             // ------------------------------------------------------------------------------------------
 
             // Extract all variables from incoming data string
             this.Invoke((MethodInvoker) (() => setVars()));
-            
+
+            if (MyIndicator == "E")
+            {
+                removeReceptionFromBuffer(reception);
+            }
+
             // ----------THIS SECTION HANDLES ALLL THE CALLER ID WINDOW VISUALS--------------
 			// The code below could easily be condensed into one method handling different line numbers.
 			// We used 4 occurances of the same method for 4 lines hoping that clarity could be provided.
+            
             switch (MyLine)
             {
                 case "01":
