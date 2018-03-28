@@ -40,7 +40,9 @@ namespace ExampleApplication_Csharp
         public static string MyNumber;
         public static string MyName;
         public static int FoundIndex;
-        public static List<string> PreviousReceptions;
+
+        // Call Record reception <reception_string, seconds_since_it_came_in>
+        Dictionary<string, int> previousReceptions = new Dictionary<string, int>();
 
         // Start record variables
         public static string SMyLine;
@@ -57,7 +59,6 @@ namespace ExampleApplication_Csharp
         public frmMain()
         {
             InitializeComponent();
-            PreviousReceptions = new List<string>();
 
             // Start listener for UDP traffic
             Subscribe(UdpReceiver);
@@ -511,53 +512,39 @@ namespace ExampleApplication_Csharp
             }
         }
 
-        private void removeReceptionFromBuffer(string reception)
-        {
-            List<int> indexes = new List<int>();
-            int cnt = 0;
-            foreach (string rec in PreviousReceptions)
-            {
-                if (rec.Contains(reception.Substring(reception.Length - 20)))
-                {
-                    indexes.Add(cnt);
-                }
-
-                cnt++;
-
-            }
-
-            // IMPORTANT!! Remove in reverse order
-            for (int i = indexes.Count - 1; i >= 0; i--)
-            {
-                PreviousReceptions.RemoveAt(indexes[i]);
-            }
-
-        }
-
         private void HeardIt(UdpReceiverClass u, EventArgs e)
         {
 
             // ----------THIS SECTION HANDLES DUPLICATE RECORDS WHEN USING DUPLICATE FEATURE --------------
             string reception = UdpReceiverClass.ReceivedMessage;
 
-            if (PreviousReceptions.Contains(reception))
+            if (previousReceptions.ContainsKey(reception))
             {
-                // Skip duplicate
-                return;
+                if (previousReceptions[reception] < 60) return;
             }
             else
             {
-                // Check buffer
-                if (PreviousReceptions.Count > 30)
+
+                if (previousReceptions.Count > 30)
                 {
-                    // If reception buffer is full, add to end and delete oldest
-                    PreviousReceptions.Add(reception);
-                    PreviousReceptions.RemoveAt(0);
+                    previousReceptions.Add(reception, 0);
+
+                    string removeKey = "";
+                    foreach (string key in previousReceptions.Keys)
+                    {
+                        removeKey = key;
+                        break;
+                    }
+
+                    if (!string.IsNullOrEmpty(removeKey))
+                    {
+                        previousReceptions.Remove(removeKey);
+                    }
+
                 }
                 else
                 {
-                    // If reception buffer not full, just add to end
-                    PreviousReceptions.Add(reception);
+                    previousReceptions.Add(reception, 0);
                 }
             }
 
@@ -565,12 +552,7 @@ namespace ExampleApplication_Csharp
 
             // Extract all variables from incoming data string
             this.Invoke((MethodInvoker) (() => setVars()));
-
-            if (MyIndicator == "E")
-            {
-                removeReceptionFromBuffer(reception);
-            }
-
+            
             // ----------THIS SECTION HANDLES ALLL THE CALLER ID WINDOW VISUALS--------------
 			// The code below could easily be condensed into one method handling different line numbers.
 			// We used 4 occurances of the same method for 4 lines hoping that clarity could be provided.
@@ -1519,6 +1501,52 @@ namespace ExampleApplication_Csharp
                 }
 
             }
+        }
+
+        private void timerDuplicateHandling_Tick(object sender, EventArgs e)
+        {
+            // DUPLICATES CODING START
+            // This timer is used to increment all seconds
+            // of the previous receptions and remove them 
+            // after 4 seconds have passed.
+
+            // If there is nothing in the reception buffer then simply exit function
+            if (previousReceptions.Count < 1) return;
+
+            // Create needed lists
+            List<string> keysToRemove = new List<string>();
+            List<string> keysToIncrement = new List<string>();
+
+            // Loop through previously received call records
+            // and mark the ones which need to be removed and
+            // mark the ones to increment the seconds on
+            foreach (string key in previousReceptions.Keys)
+            {
+                if (previousReceptions[key] > 4) // remove after 4 seconds
+                {
+                    // This reception will be removed
+                    keysToRemove.Add(key);
+                }
+                else
+                {
+                    // This reception has no waited another second
+                    keysToIncrement.Add(key);
+                }
+            }
+
+            // Increment the second of all needed receptions in buffer
+            foreach (string key in keysToIncrement)
+            {
+                previousReceptions[key]++;
+            }
+
+            // Remove all receptions in buffer that are past the time limit (2 seconds)
+            foreach (string key in keysToRemove)
+            {
+                previousReceptions.Remove(key);
+            }
+
+            // DUPLICATES CODING END
         }
 
     }

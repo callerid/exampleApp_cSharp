@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panLine1 = new System.Windows.Forms.Panel();
             this.picDatabaseLine1 = new System.Windows.Forms.PictureBox();
             this.lbLine1Name = new System.Windows.Forms.Label();
@@ -58,6 +59,7 @@
             this.picPhoneLine4 = new System.Windows.Forms.PictureBox();
             this.btLog = new System.Windows.Forms.Button();
             this.btContacts = new System.Windows.Forms.Button();
+            this.timerDuplicateHandling = new System.Windows.Forms.Timer(this.components);
             this.panLine1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picDatabaseLine1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPhoneLine1)).BeginInit();
@@ -392,6 +394,12 @@
             this.btContacts.UseVisualStyleBackColor = true;
             this.btContacts.Click += new System.EventHandler(this.btContacts_Click);
             // 
+            // timerDuplicateHandling
+            // 
+            this.timerDuplicateHandling.Enabled = true;
+            this.timerDuplicateHandling.Interval = 1000;
+            this.timerDuplicateHandling.Tick += new System.EventHandler(this.timerDuplicateHandling_Tick);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -463,6 +471,7 @@
         private System.Windows.Forms.PictureBox picDatabaseLine4;
         private System.Windows.Forms.Button btLog;
         private System.Windows.Forms.Button btContacts;
+        private System.Windows.Forms.Timer timerDuplicateHandling;
     }
 }
 
