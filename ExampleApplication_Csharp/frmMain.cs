@@ -328,6 +328,8 @@ namespace ExampleApplication_Csharp
             // Get UDP received message from event
             string receivedMessage = UdpReceiverClass.ReceivedMessage;
 
+            if (receivedMessage.Length < 20) return;
+
             // Remove header
             string rawData = receivedMessage.Substring(21, receivedMessage.Length - 21);
             int index = rawData.IndexOf(" ");
