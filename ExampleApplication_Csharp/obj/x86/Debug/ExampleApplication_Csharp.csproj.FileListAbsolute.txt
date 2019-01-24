@@ -40,3 +40,5 @@ C:\Users\spenl\Desktop\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x
 F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.csprojAssemblyReference.cache
 F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.csproj.CoreCompileInputs.cache
 F:\Projects\Visual Studio Projects\ExampleApplication_Csharp\ExampleApplication_Csharp\obj\x86\Debug\ExampleApplication_Csharp.csproj.CopyComplete
+C:\Local VS Builds\SampleApp_CSharp\ExampleApplication_Csharp.exe
+C:\Local VS Builds\SampleApp_CSharp\ExampleApplication_Csharp.pdb
