@@ -75,10 +75,10 @@ namespace ExampleApplication_Csharp
                 MessageBox.Show("SQL Exception: " + ex.ToString());
             }
 
-            // Sort by time (most recent at top)
+            // Sort by date (most recent at top)
             if(this.Visible==true)
             {
-                dgvLogFile.Sort(dgvLogFile.Columns[1], ListSortDirection.Descending);
+                dgvLogFile.Sort(dgvLogFile.Columns[0], ListSortDirection.Descending);
             }
             
         }
