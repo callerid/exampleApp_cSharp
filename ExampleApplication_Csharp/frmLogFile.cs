@@ -54,7 +54,7 @@ namespace ExampleApplication_Csharp
                 MessageBox.Show("SQL exception: " + ex.ToString());
             }
 
-            SQLiteCommand myCommand = new SQLiteCommand("SELECT * FROM calls", myConnection);
+            SQLiteCommand myCommand = new SQLiteCommand("SELECT * FROM calls ORDER BY ID DESC;", myConnection);
             if (myConnection.State == ConnectionState.Open)
             {
                 // Bind sql database to data grid view to display all fields in table format
@@ -63,6 +63,7 @@ namespace ExampleApplication_Csharp
                 datAdapter.Fill(datSet, "calls");
                 BindingSource myBind = new BindingSource(datSet, "calls");
                 dgvLogFile.DataSource = myBind;
+                dgvLogFile.Columns[0].Visible = false;
             }
 
             // Close connection
@@ -73,12 +74,6 @@ namespace ExampleApplication_Csharp
             catch (Exception ex)
             {
                 MessageBox.Show("SQL Exception: " + ex.ToString());
-            }
-
-            // Sort by date (most recent at top)
-            if(this.Visible==true)
-            {
-                dgvLogFile.Sort(dgvLogFile.Columns[0], ListSortDirection.Descending);
             }
             
         }

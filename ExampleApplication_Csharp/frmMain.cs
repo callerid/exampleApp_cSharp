@@ -152,7 +152,7 @@ namespace ExampleApplication_Csharp
                 }
 
                 // Create all needed columns in new table called 'calls'
-                SQLiteCommand myCommand = new SQLiteCommand("CREATE TABLE calls(Date varchar(10),Time varchar(10),Line varchar(10),Type varchar(10),Indicator varchar(10),Duration varchar(10),Checksum varchar(10),Rings varchar(10),Number varchar(15),Name varchar(20));", myConnection);
+                SQLiteCommand myCommand = new SQLiteCommand("CREATE TABLE calls(ID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, Date varchar(10),Time varchar(10),Line varchar(10),Type varchar(10),Indicator varchar(10),Duration varchar(10),Checksum varchar(10),Rings varchar(10),Number varchar(15),Name varchar(20));", myConnection);
                 if (myConnection.State == ConnectionState.Open)
                 {
                     myCommand.ExecuteNonQuery();
